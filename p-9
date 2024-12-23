@@ -1,5 +1,6 @@
 #include<stdio.h> 
 #include<math.h>
+#include<stdlib.h>
 
 typedef struct node
 {
@@ -166,7 +167,7 @@ scanf("%d",&n1);
 p1=insert(head1,p1,n1); 
 eval(p1);
 
-printf("\ enter the number of terms of second polynomial\n"); 
+printf("\nenter the number of terms of second polynomial\n"); 
 scanf("%d",&n2);
 
 p2=insert(head2,p2,n2); 
