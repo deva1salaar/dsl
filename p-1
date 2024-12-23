@@ -62,4 +62,5 @@ int main() {
     freeCalendar(calendar, size);
     free(calendar);
     return 0; 
+}
 
